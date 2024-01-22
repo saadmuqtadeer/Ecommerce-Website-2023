@@ -7,7 +7,7 @@ import authRoute from "./routes/authRoutes.js"
 import categoryRoute from "./routes/categoryRoutes.js"
 import productRoute from "./routes/productRoutes.js"
 import cors from "cors"
-import path, { Path } from "path";
+import path from "path";
 import { fileURLToPath } from "url";
 
 const __filename  = fileURLToPath(import.meta.url);
